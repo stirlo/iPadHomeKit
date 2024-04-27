@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Other keys -->
+
+    <!-- HomeKit Configuration -->
+    <key>NSHomeKitUsageDescription</key>
+    <string>This app requires access to HomeKit to manage your smart home devices.</string>
+
+    <!-- Privacy - Bluetooth Peripheral Usage Description (if interacting with Bluetooth devices) -->
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This app will use Bluetooth to connect to smart home devices in your home.</string>
+
+    <!-- Privacy - Local Network Usage Description (if needed) -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This app needs to discover and interact with devices on your local network for home automation.</string>
+
+    <!-- Capabilities -->
+    <!-- Make sure to enable the 'HomeKit' capability in your project settings under the 'Signing & Capabilities' tab -->
+
+</dict>
+</plist>
